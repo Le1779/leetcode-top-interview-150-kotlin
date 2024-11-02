@@ -1,10 +1,10 @@
-package app.kevinle.leetcodetopinterview150kotlin
+package app.kevinle.leetcodetopinterview150kotlin.p151
 
 import org.junit.Test
 import org.junit.jupiter.api.Assertions
 
 /**
- * Created by Kevin Le on 2024/11/2.
+ * Created by Kevin Le on 2024/11/3.
  */
 class SolutionTest {
 

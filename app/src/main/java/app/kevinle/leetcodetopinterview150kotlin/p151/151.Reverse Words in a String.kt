@@ -1,4 +1,4 @@
-package app.kevinle.leetcodetopinterview150kotlin
+package app.kevinle.leetcodetopinterview150kotlin.p151
 
 import kotlin.math.ceil
 
