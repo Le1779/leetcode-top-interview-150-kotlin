@@ -1,5 +1,6 @@
 package app.kevinle.leetcodetopinterview150kotlin.p104
 
+import app.kevinle.leetcodetopinterview150kotlin.models.tree.TreeNode
 import kotlin.math.max
 
 /**
@@ -19,9 +20,4 @@ class Solution {
         val rightDepth = traversal(root.right, depth + 1)
         return max(leftDepth, rightDepth)
     }
-}
-
-class TreeNode(var `val`: Int) {
-    var left: TreeNode? = null
-    var right: TreeNode? = null
 }

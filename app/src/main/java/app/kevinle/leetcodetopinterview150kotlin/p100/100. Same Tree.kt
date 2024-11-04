@@ -1,5 +1,7 @@
 package app.kevinle.leetcodetopinterview150kotlin.p100
 
+import app.kevinle.leetcodetopinterview150kotlin.models.tree.TreeNode
+
 /**
  * Created by Kevin Le on 2024/11/4.
  */
@@ -27,9 +29,4 @@ class Solution {
 
         return aTree.`val` == bTree.`val`
     }
-}
-
-class TreeNode(var `val`: Int) {
-    var left: TreeNode? = null
-    var right: TreeNode? = null
 }
